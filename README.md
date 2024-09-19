@@ -1,2 +1,3 @@
 # Seoul_park
-객체 인식 - 추적
+2024 Seoul City Public Park AIoT Hackerthon
+Pedestrian Security Project
