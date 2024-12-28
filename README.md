@@ -1,11 +1,12 @@
 # Seoul_park 🌳
 
-## 2024 Seoul City Public Park AIoT Hackerthon
+## 2024 Seoul City Public Park AIoT Hackerthon Winning Works (5등 장려상상 수상작)
+> Coded by SKKU 2nd grade student (July~October 2024)
 > **Current situation:** Aborted (no update planned)
 
 ## Technologies Used
 
-This project leverages several powerful technologies, primarily:
+This project leverages several new hot technologies:
 
 ### YOLOv8 by Ultralytics
 This project utilizes YOLOv8, developed by Ultralytics. YOLOv8 is a cutting-edge, state-of-the-art (SOTA) model that builds upon previous YOLO versions with new features and improved performance. For more information, please visit:
