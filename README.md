@@ -3,19 +3,26 @@
 ## 2024 Seoul City Public Park AIoT Hackerthon
 > **Current situation:** Aborted (no update planned)
 
-## Pedestrian Security Project 🚶‍♂️
+## Technologies Used
 
-![Python](https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python) 
-![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-00FFFF?style=flat-square) 
-![SORT](https://img.shields.io/badge/Tracking-SORT-FF6B6B?style=flat-square)
+This project leverages several powerful technologies, primarily:
 
-### Project Overview
-자전거나 오토바이의 빠른 속도로 인해 한강공원을 산책하는 보행자들이 위험에 처할 수 있는 상황을 감지하는 프로젝트입니다. YOLOv8을 사용하여 자전거, 오토바이, 스쿠터 등을 감지하고, SORT 알고리즘으로 객체를 추적합니다.
+### YOLOv8 by Ultralytics
+This project utilizes YOLOv8, developed by Ultralytics. YOLOv8 is a cutting-edge, state-of-the-art (SOTA) model that builds upon previous YOLO versions with new features and improved performance. For more information, please visit:
+- Ultralytics YOLOv8: https://github.com/ultralytics/ultralytics
+- Documentation: https://docs.ultralytics.com
 
-### Technical Details
-- **Object Detection**: YOLOv8s 모델
-- **Object Tracking**: SORT(Simple Online and Realtime Tracking) 알고리즘
-- **Hardware Requirement**: Jetson Nano (실시간 처리용)
+```python
+# YOLOv8 Installation
+pip install ultralytics
+
+# Our implementation using YOLOv8
+from ultralytics import YOLO
+model = YOLO('yolov8s.pt')  # Loading the small version of YOLOv8
+```
+
+### SORT (Simple Online and Realtime Tracking)
+We implement object tracking using the SORT algorithm, which provides efficient and effective multi-object tracking capabilities.
 
 ## Project Structure
 ```
@@ -68,6 +75,9 @@ seoul_park
   - 자동 캡처 및 업로드
   - 성능 최적화 (프레임 스킵 등)
 
+
+## License & Credits
+This project uses YOLOv8, which is developed by Ultralytics and released under the AGPL-3.0 license. We acknowledge and thank the Ultralytics team for their outstanding work on YOLOv8. For detailed license information, please visit: https://github.com/ultralytics/ultralytics/blob/main/LICENSE
 ### Implementation Notes
 코드는 각 파일에서 확인할 수 있으며, 주요 기능별로 다음과 같이 구현되어 있습니다:
 
