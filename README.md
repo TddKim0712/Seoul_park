@@ -64,6 +64,23 @@ seoul_park
    - GitHub 자동 업로드
    - 실시간 모니터링
 
+## Setup and Configuration
+1. Install required packages:
+```bash
+pip install ultralytics opencv-python numpy scipy
+```
+Configure GitHub integration (for main_10_10_4.py):
+
+2. Get your GitHub personal access token
+Update GITHUB_TOKEN and GITHUB_REPO in the code
+Ensure you have write permissions to the repository
+
+
+3. Prepare input video:
+Place your input video in the project directory
+Update video_path in the code accordingly
+
+
 ### Version Information
 - **Prototype (main_8_26_4_precise.py)**
   - 기본 기능 구현
