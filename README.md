@@ -1,6 +1,6 @@
 # Seoul_park 🌳
 
-## 2024 Seoul City Public Park AIoT Hackerthon Winning Works (5등 장려상상 수상작)
+## 2024 Seoul City Public Park AIoT Hackerthon Winning Works (5등 장려상 수상작)
 > Coded by SKKU 2nd grade student (July~October 2024)
 > **Current situation:** Aborted (no update planned)
 
